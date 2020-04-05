@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-          <Header title="MY PROTFOLIO" scroll>
+          <Header className='header-coler' title="MY PROTFOLIO" scroll>
               <Navigation>
                   <Link to="/resume">Resume</Link>
                   <Link to="/aboutme">About Me</Link>
