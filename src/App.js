@@ -10,6 +10,7 @@ function App() {
       <Layout>
           <Header className='header-coler' title="MY PROTFOLIO" scroll>
               <Navigation>
+                <Link to="/">Home</Link>
                   <Link to="/resume">Resume</Link>
                   <Link to="/aboutme">About Me</Link>
                   <Link to="/projects">Projects</Link>
@@ -18,6 +19,7 @@ function App() {
           </Header>
           <Drawer title="Title">
               <Navigation>
+                  <Link to="/">Home</Link>
                   <Link to="/resume">Resume</Link>
                   <Link to="/aboutme">About Me</Link>
                   <Link to="/projects">Projects</Link>
