@@ -11,7 +11,7 @@ class Landing extends Component {
                             alt='avatar'
                             className='avatar-img img-fluid rounded-circle' roundedCircle/>
                         <div className='banner-text'>
-                            <h1>Full Stack Web Developer</h1>
+                            <h1>Développeur Web Full Stack</h1>
                             <hr/>
                             <p>HTML/CSS | Boostrap | JavaScript | React | PHP | Zend/Symfony | SQL/MYSQL | NOSQL/MongoDB</p>
                             <div className='social-links'>

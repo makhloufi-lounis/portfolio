@@ -17,7 +17,7 @@ class Contact extends Component {
                         </p>
                     </Cell>
                     <Cell col={6}> 
-                        <h2>Contact Me</h2>
+                        <h2>Contactez moi</h2>
                         <hr />
                         <div className='contact-list'>                        
                             <List>

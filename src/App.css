@@ -20,6 +20,18 @@
   display: flex;
 }
 
+.circular--square{
+  border-radius: 50%;
+}
+
+/* Resume Page css */
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+/* Contact Page css */
 .contact-body {
   margin: auto;
   /*background: grey;*/
