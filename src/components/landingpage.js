@@ -7,11 +7,12 @@ class Landing extends Component {
                 <Grid className='landing-grid'>
                     <Cell col={12}>
                         <img
-                            src={process.env.PUBLIC_URL + '/img/ProfilePhotos02.jpg'}
+                            src={process.env.PUBLIC_URL + '/img/background.jpg'}
                             alt='avatar'
-                            className='avatar-img img-fluid rounded-circle' roundedCircle/>
+                            className='avatar-img img-fluid rounded-circle' roundedCircle/>                           
                         <div className='banner-text'>
-                            <h1>Développeur Web Full Stack</h1>
+                            <h3 style={{color: 'white', paddingTop:'10px', marginBottom:'5px'}}>Lounis Makhloufi</h3> 
+                            <h3 style={{paddingTop:'0px', marginTop:'0px', color: 'white'}}>Développeur Web Full Stack</h3>
                             <hr/>
                             <p>HTML/CSS | Boostrap | JavaScript | React | PHP | Zend/Symfony | SQL/MYSQL | NOSQL/MongoDB</p>
                             <div className='social-links'>

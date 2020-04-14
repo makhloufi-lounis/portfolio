@@ -11,8 +11,8 @@ class Experience extends Component {
                 <Cell col={8}>
                     <h4 style={{marginTop:'0px', marginBottom: '0px'}}>{this.props.jobName}</h4>
                     <h5 style={{marginTop:'0px', marginBottom: '0px'}}>{this.props.companyName}</h5>
-                    <p style={{marginTop:'0px', marginBottom: '0px'}}>{this.props.companyAdress}</p>
-                    <p>{this.props.startMonth} {this.props.startYear} - {this.props.endMonth} {this.props.endYear}</p>
+                    <p style={{marginTop:'0px', marginBottom: '0px', color: '#dbdbdb'}}>{this.props.companyAdress}</p>
+                    <p style={{color: '#dbdbdb'}}>{this.props.startMonth} {this.props.startYear} - {this.props.endMonth} {this.props.endYear}</p>
                     <p>{this.props.jobDescription}</p>
                 </Cell>
         </Grid>
