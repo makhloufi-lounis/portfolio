@@ -59,7 +59,7 @@ class Projects extends Component {
                                                     background: 'url(/logos/ReactLogo.jpg) center / cover'
                                                 }
                                             }>
-                                                Projet Storybook #1
+                                                Projet Boite à Recette #1
 
                                     </CardTitle>
                                     <CardText className='card-text'>
