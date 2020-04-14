@@ -18,7 +18,7 @@ class Resume extends Component {
                                 style={{height: '180px', marginRight:'20px'}}
                             />
                         </div>
-                        <h2 style={{paddingTop:'0em', color:'black'}}>Lounis Makhloufi</h2>
+                        <h3 style={{paddingTop:'0em', color:'black'}}>Lounis Makhloufi</h3>
                         <h4 style={{color: 'grey'}}>Développeur Web Full Stack</h4>
                         <hr style={{borderTop: '3px solid #B33fb2', width: '50%'}} />
                         <p>
@@ -103,7 +103,7 @@ class Resume extends Component {
 
                     </Cell>
                     <Cell col={8} phone={12} className='resume-right-col'>
-                        <h2>Expérience</h2>
+                        <h3>Expérience</h3>
                         <Experience
                             logo={process.env.PUBLIC_URL + '/logos/teeps.png'}
                             jobName='Développeur web php'
@@ -199,7 +199,7 @@ class Resume extends Component {
                             }
                         />
                          <hr style={{borderTop:'3px solid #e22974'}} />
-                        <h2>Formations</h2>
+                        <h3>Formations</h3>
                         <Education
                             logo={process.env.PUBLIC_URL + '/logos/paris7.png'}
                             scoolName='Université Denis Diderot (Paris VII)'

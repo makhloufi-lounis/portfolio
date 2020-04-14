@@ -7,7 +7,7 @@ class Contact extends Component {
             <div className='contact-body'>
                 <Grid className='contact-grid'>
                     <Cell col={6}> 
-                        <h2>Lounis Makhloufi</h2>
+                        <h2 style={{color:'black'}}>Lounis Makhloufi</h2>
                         <img
                             src={process.env.PUBLIC_URL + '/img/photoeffets.com_.jpg'}
                             alt='avatar'
@@ -17,7 +17,7 @@ class Contact extends Component {
                         </p>
                     </Cell>
                     <Cell col={6}> 
-                        <h2>Contactez moi</h2>
+                        <h2 style={{color:'black'}}>Contactez moi</h2>
                         <hr />
                         <div className='contact-list'>                        
                             <List>
