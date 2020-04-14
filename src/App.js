@@ -10,18 +10,18 @@ function App() {
       <Layout>
           <Header className='header-coler' title={<Link style={{textDecoration: 'none', color: 'white', fontWeight:'bold'}} to="/">Mon PROTFOLIO</Link>}  scroll>
               <Navigation style={{fontWeight:'bold'}}>
-                  <Link to="/">Accueil</Link>
-                  <Link to="/resume">CV</Link>
-                  <Link to="/projects">Projets</Link>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/" style={{fontWeight:'bold'}}>Accueil</Link>
+                  <Link to="/resume" style={{fontWeight:'bold'}}>CV</Link>
+                  <Link to="/projects" style={{fontWeight:'bold'}}>Projets</Link>
+                  <Link to="/contact" style={{fontWeight:'bold'}}>Contact</Link>
               </Navigation>
           </Header>
           <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Mon PROTFOLIO</Link>}>
               <Navigation style={{fontWeight:'bold'}}>
-                  <Link to="/">Accueil</Link>
-                  <Link to="/resume">CV</Link>
-                  <Link to="/projects">Projets</Link>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/" style={{fontWeight:'bold'}}>Accueil</Link>
+                  <Link to="/resume" style={{fontWeight:'bold'}}>CV</Link>
+                  <Link to="/projects" style={{fontWeight:'bold'}}>Projets</Link>
+                  <Link to="/contact" style={{fontWeight:'bold'}}>Contact</Link>
               </Navigation>
           </Drawer>
           <Content>
