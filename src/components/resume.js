@@ -119,9 +119,9 @@ class Resume extends Component {
                                     <ul>
                                         <li>Participez à la conception technique et au chiffrage des demandes de développements.</li>
                                         <li>Production de code conforme au cahier des charges, de qualité et maintenable par l'ensemble de l'équipe.</li>
-                                        <li>Intégration et utilisation des API/SDK tels que Facebook, Stripe, Sentry</li>
-                                        <li>Mise en place des tests unitaires avec PhpUnit</li>
-                                        <li>Participation a la mise en place de l'intégration et du déploiement contenu avec Travis</li>
+                                        <li>Intégration et utilisation des API/SDK tels que Facebook, Stripe, Sentry.</li>
+                                        <li>Mise en place des tests unitaires avec PhpUnit.</li>
+                                        <li>Participation a la mise en place de l'intégration et du déploiement contenu avec Travis.</li>
                                     </ul>
                                 </div>
                                 
