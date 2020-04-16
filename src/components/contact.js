@@ -26,13 +26,7 @@ class Contact extends Component {
                                         <i className='fa fa-phone-square' aria-hidden='true' />
                                         +33 7 60 80 26 42
                                     </ListItemContent>
-                                </ListItem>
-                                <ListItem>
-                                    <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
-                                        <i className='fa fa-fax' aria-hidden='true' />
-                                        +33 7 60 80 26 42
-                                    </ListItemContent>
-                                </ListItem>
+                                </ListItem>                                
                                 <ListItem>
                                     <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
                                         <i className='fa fa-envelope' aria-hidden='true' />
