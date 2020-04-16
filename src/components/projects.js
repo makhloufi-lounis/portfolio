@@ -29,7 +29,7 @@ class Projects extends Component {
 
                                     </CardTitle>
                                     <CardText className='card-text'>
-                                        Ce projet a été réaliser pour découvrire Storybook l'outil le plus populaire de développement de composants d'interface utilisateur. Il vous aide à développer et à concevoir des composants d'interface utilisateur en dehors de votre application dans un environnement isolé.
+                                        Ce projet a été réaliser pour découvrir Storybook l'outil le plus populaire de développement de composants d'interface utilisateur.
                                     </CardText>
                                     <CardActions border>
                                         <Button colored>
@@ -97,7 +97,7 @@ class Projects extends Component {
 
                                     </CardTitle>
                                     <CardText className='card-text'>
-                                        Projet react pour créer un systeme de chat, ce proget utilise le service firebase qui propose une base de données cloud NoSQL et qui permet de stocker et synchroniser et les messages des différants utilisateurs.
+                                        Projet react pour créer un systeme de chat, ce proget utilise le service firebase qui propose une base de données cloud NoSQL.
                                     </CardText>
                                     <CardActions border>
                                         <Button colored>
@@ -130,7 +130,7 @@ class Projects extends Component {
 
                                     </CardTitle>
                                     <CardText className='card-text'>
-                                        Un petit projet react pour pour débuter avec React.js et la prise en main de ses outils, ses notions et sa syntaxe. toute en pratiquant avec la création d'une app Reactjs de A à Z !.
+                                        Un petit projet react pour débuter avec React.js.
                                     </CardText>
                                     <CardActions border>
                                         <Button colored>
@@ -163,7 +163,7 @@ class Projects extends Component {
 
                                     </CardTitle>
                                     <CardText className='card-text'>
-                                        Un petit projet react avec un rendu Markdown en tant que composants React.
+                                        Projet react avec un rendu Markdown en tant que composants React.
                                     </CardText>
                                     <CardActions border>
                                         <Button colored>
@@ -234,7 +234,7 @@ class Projects extends Component {
 
                                     </CardTitle>
                                     <CardText className='card-text'>
-                                        Cette application est une application Symfony2 simple qui permet de consulter, ajouter modifier et supprimer des articles elle est realisée dans le cadre d'une auto formation sur le framework Symfony2 en suivant un tutoriel sur le site du Zero.
+                                        Cette application est une application Symfony2 simple qui permet de consulter, ajouter modifier et supprimer des articles elle est realisée dans le cadre d'une auto formation.
                                     </CardText>
                                     <CardActions border>
                                         <Button colored>
@@ -274,7 +274,7 @@ class Projects extends Component {
 
                                     </CardTitle>
                                     <CardText className='card-text'>
-                                        Petit projet d'implementation d'un Middleware PSR-15 pour la protection contre les fails CSRF et la mise en place de l'intégration contenu avec Travis. Ce middleware vérifie les requêtes pour un jeton CSRF.
+                                        Projet d'implementation d'un Middleware PSR-15 pour la protection contre les fails CSRF et la mise en place de l'intégration contenu avec Travis. Ce middleware vérifie les requêtes pour un jeton CSRF.
                                     </CardText>
                                     <CardActions border>
                                         <Button colored>
@@ -303,7 +303,7 @@ class Projects extends Component {
                                             Expressive OAuth 2 server #2
                                     </CardTitle>
                                     <CardText className='card-text'>
-                                        Projet d'implementation d'un Middleware OAuth2 pour les applications Expressive et PSR-7. Il utilise le package league/oauth2-server pour implémenter le serveur OAuth2. Il prend en charge tous les type de subvention authorization code.
+                                        Projet d'implementation d'un Middleware OAuth2 pour les applications Expressive et PSR-7. Il utilise le package league/oauth2-server pour implémenter le serveur OAuth2.
                                     </CardText>
                                     <CardActions border>
                                         <Button colored>
