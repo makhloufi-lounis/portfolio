@@ -21,16 +21,16 @@ class Resume extends Component {
                         <h3 style={{paddingTop:'0em', color:'black'}}>Lounis Makhloufi</h3>
                         <h4 style={{color: 'grey'}}>Développeur Web Full Stack</h4>
                         <hr style={{borderTop: '3px solid #B33fb2', width: '50%'}} />
-                        <p>
+                        <p style={{textAlign:'center'}}>
                             Développeur web disposant de plus de 4 ans d'expériences autonome, discipliné et curieux. passionné par le code et le développement des applications web.
                         </p>
                         <hr style={{borderTop: '3px solid #B33fb2', width: '50%'}} />
-                        <h5>Adress</h5>
-                        <p>18 Boulevard Jean Jacques Rousseau, 92230 Gennevilliers, France</p>
-                        <h5>Tél</h5>
-                        <p>+33 7 60 80 26 42</p>
-                        <h5>Email</h5>
-                        <p>makhloufi.lounis@gmail.com</p>
+                        
+                        <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;18 Boulevard Jean Jacques Rousseau, 92230 Gennevilliers, France</p>
+                        
+                        <p><i class="fa fa-phone"></i>&nbsp;&nbsp;+33 7 60 80 26 42</p>
+                        
+                        <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;makhloufi.lounis@gmail.com</p>
                         <h5>Web</h5>
                         <Button style={{display: 'block'}}>
                             <i className='fa fa-github-square' aria-hidden='true' />&nbsp;&nbsp;
@@ -45,7 +45,7 @@ class Resume extends Component {
                             </a>
                         </Button>                        
                         <hr style={{borderTop: '3px solid #B33fb2', width: '50%'}} />
-                        <h4>Compétences Technique</h4>
+                        <h4>Technologies</h4>
                         <Skills 
                             skill='PHP (Zend/Symfony)'
                             process={90}
@@ -96,14 +96,14 @@ class Resume extends Component {
                         />
                         <hr style={{borderTop: '3px solid #B33fb2', width: '50%'}} />
                         <h4>Langues</h4>
-                        <h5 style={{marginBottom:'0px'}}>Français</h5>
-                        <p>Courant</p>
-                        <h5 style={{marginBottom:'0px'}}>Anglais</h5>
-                        <p>Compétence professionnelle</p>
+                        <ul>
+                            <li><strong>Français</strong> (courant)</li>
+                            <li><strong>Anglais </strong>(compétence professionnelle)</li>
+                        </ul>
 
                     </Cell>
                     <Cell col={8} phone={12} className='resume-right-col'>
-                        <h3>Expérience</h3>
+                        <h3><i class="fa fa-briefcase"></i>&nbsp;&nbsp;Expérience</h3>
                         <Experience
                             logo={process.env.PUBLIC_URL + '/logos/teeps.png'}
                             jobName='Développeur web php'
@@ -111,7 +111,7 @@ class Resume extends Component {
                             companyAdress="92 Rue d'Amsterdam, 75009 Paris"
                             startMonth='Septembre'
                             startYear={2019}
-                            endMonth='groupe-pratique'
+                            endMonth="Aujourd'hui"
                             endYear=''
                             jobDescription={
                                 <div>
@@ -128,7 +128,7 @@ class Resume extends Component {
                             }
                         />
                        <Experience
-                            logo={process.env.PUBLIC_URL + '/logos/fusacq.png'}
+                            logo={process.env.PUBLIC_URL + '/logos/fusacq.jpg'}
                             jobName='Développeur web php'
                             companyName='Fusacq'
                             companyAdress="27 Rue Taitbout, 75009 Paris"
@@ -199,7 +199,7 @@ class Resume extends Component {
                             }
                         />
                          <hr style={{borderTop:'3px solid #e22974'}} />
-                        <h3>Formations</h3>
+                        <h3> <i class="fa fa-graduation-cap"></i>&nbsp;&nbsp;Formations</h3>
                         <Education
                             logo={process.env.PUBLIC_URL + '/logos/paris7.png'}
                             scoolName='Université Denis Diderot (Paris VII)'

@@ -6,12 +6,12 @@ class Education extends Component {
         return(
             <Grid>
                 <Cell col={4}>
-                    <img src={this.props.logo} style={{ height:'80px', width:'80px'}}/>
+                    <img src={this.props.logo} style={{ height:'80px', width:'80px', borderRadius:'50%'}}/>
                 </Cell>
                 <Cell col={8}>
                     <h4 style={{marginTop:'0px'}}>{this.props.scoolName}</h4>
-                    <h5 style={{marginTop:'0px'}}>{this.props.Diploma}</h5>
-                    <p style={{color: '#dbdbdb'}}>{this.props.startYear} - {this.props.endYear}</p>
+                    <h6 style={{marginTop:'0px'}}><strong>{this.props.Diploma}</strong></h6>
+                    <p style={{color: '#dbdbdb'}}><i className="fa fa-calendar fa-1x" style={{borderColor:'white'}}/>&nbsp;&nbsp;{this.props.startYear} - {this.props.endYear}</p>
                     <p>{this.props.scoolDescriptio}</p>
                 </Cell>
             </Grid>
